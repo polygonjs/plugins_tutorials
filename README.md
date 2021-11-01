@@ -12,7 +12,7 @@
 - add the folders `src/engine/nodes/sop`.
 - inside the `sop` folder, create a file called `TransformCustom.js`. You should now have this file structure:
 
-![File Structure](https://raw.githubusercontent.com/polygonjs/plugins_tutorials/master/public/files.jpg?v=1)
+![File Structure](https://github.com/polygonjs/plugins_tutorials/blob/main/public/files.jpg?raw=true)
 
 - Then copy the content of the file from what's in the repo.
 
@@ -29,4 +29,4 @@ poly.nodesRegister.register(TransformCustomSopNode, 'myNodes');
 
 And reload the page of the editor. You should now be able to load your custom nodes:
 
-![Custom node loaded](https://raw.githubusercontent.com/polygonjs/plugins_tutorials/master/public/registered_node.jpg?v=1)
+![Custom node loaded](https://github.com/polygonjs/plugins_tutorials/blob/main/public/registered_node.jpg?raw=true)
