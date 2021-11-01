@@ -1,19 +1,22 @@
 # How to create a plugin in a javascript project
 
-First, set up your project:
+## First, set up your project:
 
 - create a new folder.
 - start polygonjs with `npx polygonjs-editor`
 - save the default scene as `javascript` (as in the docs: [https://polygonjs.com/docs/getting_started/local/save_as_javascript](https://polygonjs.com/docs/getting_started/local/save_as_javascript)).
 - run `npm init -y && yarn add polygonjs-editor @polygonjs/polygonjs`
 
-Then, you can create a custom node:
+## Then, you can create a custom node:
 
-- add the folders `src/engine/nodes/sop`
-- inside the `sop` folder, create a file called `TransformCustom.js`.
+- add the folders `src/engine/nodes/sop`.
+- inside the `sop` folder, create a file called `TransformCustom.js`. You should now have this file structure:
+
+![File Structure](https://raw.githubusercontent.com/polygonjs/plugins_tutorials/master/public/files.jpg?v=1)
+
 - Then copy the content of the file from what's in the repo.
 
-And once the node is created, you need to register it, so that it can be accessible from the UI:
+## And once the node is created, you need to register it, so that it can be accessible from the UI:
 
 - in the file `src/polygonjs/PolyConfig.js`, add the following line:
 ```js
@@ -24,4 +27,6 @@ and inside the function `configurePolygonjs`, add this line:
 poly.nodesRegister.register(TransformCustomSopNode, 'myNodes');
 ```
 
-And reload the page of the editor. You should now be able to create your custom node.
+And reload the page of the editor. You should now be able to load your custom nodes:
+
+![Custom node loaded](https://raw.githubusercontent.com/polygonjs/plugins_tutorials/master/public/registered_node.jpg?v=1)
