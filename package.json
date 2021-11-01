@@ -1,0 +1,17 @@
+{
+  "name": "plugin_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@polygonjs/polygonjs": "^1.1.189",
+    "polygonjs-editor": "^1.1.189-1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

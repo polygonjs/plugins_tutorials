@@ -1,0 +1,10 @@
+{
+	"properties": "1635791796632",
+	"root": "1635791124324",
+	"nodes": {
+		"geo1": "1635791796632",
+		"geo1/materials1": "1635791124324",
+		"perspectiveCamera1": "1635791124324",
+		"perspectiveCamera1/events1": "1635791124324"
+	}
+}
