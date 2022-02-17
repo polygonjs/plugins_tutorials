@@ -1,17 +1,12 @@
 {
-  "name": "plugin_test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "@polygonjs/polygonjs": "^1.1.189",
-    "polygonjs-editor": "^1.1.189-1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"engines": {
+		"node": ">=16.13.1",
+		"yarn": ">=1.22.7"
+	},
+	"scripts": {
+		"polygon": "node node_modules/polygonjs-editor/build/index.js --port=8091"
+	},
+	"dependencies": {
+		"polygonjs-editor": "1.1.232-1"
+	}
 }

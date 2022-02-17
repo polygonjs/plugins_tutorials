@@ -126,7 +126,7 @@
 		"transformCustom1": {
 			"type": "transformCustom",
 			"params": {
-				"y": "sin($T)"
+				"height": 0.61
 			},
 			"inputs": [
 				"material1"
