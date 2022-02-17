@@ -16,7 +16,7 @@ Here we are going to create a custom SOP node, which is specialized to manipulat
 
 ![File Structure](https://github.com/polygonjs/plugins_tutorials/blob/main/public/files.jpg?raw=true)
 
-- 3A. Then copy the content of the file from [what's in the repo](https://github.com/polygonjs/plugins_tutorials/blob/main/src/engine/nodes/sop/TransformCustom.js). It looks like this:
+- 3. Then copy the content of the file from [what's in the repo](https://github.com/polygonjs/plugins_tutorials/blob/main/src/engine/nodes/sop/TransformCustom.js). It looks like this:
 
 ``` js
 import {TypedSopNode} from '@polygonjs/polygonjs/dist/src/engine/nodes/sop/_Base';
@@ -52,7 +52,14 @@ export class TransformCustomSopNode extends TypedSopNode {
 }
 ```
 
-- 4. Or you if prefer using typescript, you can also write your nodes with it. The file is [almost the same](https://github.com/polygonjs/plugins_tutorials/blob/main/src/engine/nodes/sop/TransformCustomInTS.ts):
+Or you if prefer using typescript, you can also write your nodes with it.
+
+
+<details>
+<summary>Show typescript example</summary>
+
+The file is [almost the same](https://github.com/polygonjs/plugins_tutorials/blob/main/src/engine/nodes/sop/TransformCustomInTS.ts):
+
 
 ``` ts
 import { CoreGroup } from '@polygonjs/polygonjs/dist/src/core/geometry/Group';
@@ -93,6 +100,10 @@ The main differences between writing your node with javascript and typescript ar
 
 - you need to give the parameter object as template: `TypedSopNode<TransformCustomSopParamsConfig>`. This allows the calls to a parameter ( `node.p.height` ) and to a parameter value ( `node.pv.height` ) to predict the type those return.
 - you need to give the argument type of the cook method. For a [SOP node](https://polygonjs.com/docs/nodes/sop), this is: `cook(inputContents:CoreGroup[])`.
+
+
+</details>
+
 
 
 ## And once the node is created, you need to register it, so that it can be accessible from the UI:
