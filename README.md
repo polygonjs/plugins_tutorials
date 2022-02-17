@@ -9,8 +9,10 @@ This repository explains how to do so, it's very simple:
 
 - 1. Create a new folder.
 - 2. Start polygonjs with `npx polygonjs-editor`.
-- 3. Save the default scene.
-- 4. When prompted, install the dependencies with `npm install` or `yarn`.
+- 3. Open your browser at `http://localhost:8091/` to open the editor.
+- 4. Save the default scene, either with `Ctrl+S` or from the top menu `File -> Save`
+- 5. When prompted, install the dependencies with `npm install` or `yarn`.
+- 6. Once the dependencies are installed, click `Save again`.
 
 ## Then, you can create a custom node:
 
