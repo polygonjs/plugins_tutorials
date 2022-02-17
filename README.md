@@ -1,4 +1,9 @@
-# How to create a plugin in a javascript project
+# How to add custom nodes to Polygonjs
+
+[Polygonjs](https://polygonjs.com) is node-based WebGL engine. It is [open-source](https://github.com/polygonjs/polygonjs) and allows you to create and import your own nodes.
+
+This repository explains how to do so, it's very simple:
+
 
 ## First, set up your project:
 
