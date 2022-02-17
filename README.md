@@ -52,8 +52,7 @@ export class TransformCustomSopNode extends TypedSopNode {
 }
 ```
 
-Or you if prefer using typescript, you can also write your nodes with it.
-
+Or **if you prefer using typescript**, you can also write your nodes with it.
 
 <details>
 <summary>Show typescript example</summary>
