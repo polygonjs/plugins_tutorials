@@ -129,8 +129,9 @@ poly.nodesRegister.register(TransformCustomSopNode, 'myNodes');
 
 ## What's next?
 
-Now that you see how easy it is to extend Polygonjs, have a look at all the nodes you can take inspiration from in the core engine:
+Now that you see how easy it is to extend Polygonjs, have a look at all the nodes you can take inspiration from in the core library:
 
+- [Actor nodes](https://github.com/polygonjs/polygonjs/tree/master/src/engine/nodes/actor)
 - [Anim nodes](https://github.com/polygonjs/polygonjs/tree/master/src/engine/nodes/anim)
 - [Audio nodes](https://github.com/polygonjs/polygonjs/tree/master/src/engine/nodes/audio)
 - [Compositing/Texture nodes](https://github.com/polygonjs/polygonjs/tree/master/src/engine/nodes/cop)
