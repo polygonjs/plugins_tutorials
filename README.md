@@ -114,7 +114,7 @@ The main differences between writing your node with javascript and typescript ar
 
 ## And once the node is created, you need to register it, so that it can be accessible from the UI:
 
-- 1. in the file [src/polygonjs/scenes/scene_01/PolyConfig.ts](https://github.com/polygonjs/plugins_tutorials/blob/main/src/polygonjs/scenes/scene_01/PolyConfig.ts), add the following line at the top:
+- 1. in the file [src/polygonjs/scenes/scene_01/PolyConfig.js](https://github.com/polygonjs/plugins_tutorials/blob/main/src/polygonjs/scenes/scene_01/PolyConfig.js), add the following line at the top:
 ```js
 import {TransformCustomSopNode} from '../../../engine/nodes/sop/TransformCustom'
 ```
